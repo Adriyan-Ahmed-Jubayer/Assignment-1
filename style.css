@@ -2,3 +2,43 @@
     margin: 0px;
     padding: 0px;
 }
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Header Section Styles */
+
+.banner {
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner-title {
+    font-size: 80px;
+    color: rgb(39, 39, 39);
+    font-weight: 800;
+
+}
+
+.banner-description {
+    color: rgba(39,39,39,0.60);
+    font-size: 18px;
+    font-weight: 500;
+    margin: 32px 0px;
+    line-height: 30px;
+}
+
+.primary-btn {
+    background: #E55473;
+    color: white;
+    font-size: 20px;
+    padding: 20px 43px;
+    border: none;
+    border-radius: 8px;
+}
+.banner-image {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
