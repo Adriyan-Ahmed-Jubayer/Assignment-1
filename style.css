@@ -84,3 +84,22 @@ body {
     margin: 50px 240px;
     gap: 24px;
 }
+
+/* Subscribe Section Styles Start from Here */
+
+.subscribe-section-container {
+    text-align: center;
+    margin: 140px 240px;
+    background-image: url("./Flower Asset/Rectangle\ 9.png");
+    background-repeat: no repeat;
+    background-size: cover;
+    padding:112px ;
+    border-radius: 8px;
+}
+
+.email-section {
+    padding: 24px 500px 24px 22px ;
+    border: none;
+    border-radius: 8px;
+    margin-right: 16px;
+}
