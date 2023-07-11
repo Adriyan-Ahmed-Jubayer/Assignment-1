@@ -7,9 +7,19 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+/* common styles  */
+
+.common-text {
+    color: rgba(39,39,39,0.60);
+    font-size: 18px;
+    font-weight: 500;
+    margin: 32px 0px;
+    line-height: 30px;
+}
+
 /* Header Section Styles */
 
-.banner {
+.banner-container {
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
     align-items: center;
@@ -22,14 +32,6 @@ body {
 
 }
 
-.banner-description {
-    color: rgba(39,39,39,0.60);
-    font-size: 18px;
-    font-weight: 500;
-    margin: 32px 0px;
-    line-height: 30px;
-}
-
 .primary-btn {
     background: #E55473;
     color: white;
@@ -38,7 +40,32 @@ body {
     border: none;
     border-radius: 8px;
 }
-.banner-image {
+.banner-image-container {
     margin-top: 50px;
-    margin-bottom: 0px;
+    margin-bottom: -3px;
+}
+
+/* main section styles */
+
+.offer-container {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(229, 84, 115, 0.05);
+    height: 620px;
+}
+
+.offer-details-container {
+    text-align: center;
+}
+
+.title-design {
+    color: #E55473;
+}
+
+.offer-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 900;
 }
