@@ -17,6 +17,12 @@ body {
     line-height: 30px;
 }
 
+.common-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 900;
+}
+
 /* Header Section Styles */
 
 .banner-container {
@@ -45,7 +51,9 @@ body {
     margin-bottom: -3px;
 }
 
-/* main section styles */
+/* Main Section Styles */
+
+/* Offer Section Styls Starts from Here */
 
 .offer-container {
     margin-top: 150px;
@@ -64,8 +72,15 @@ body {
     color: #E55473;
 }
 
-.offer-title {
-    color: #272727;
-    font-size: 40px;
-    font-weight: 900;
+/* Social Media Section Styls Start from here*/
+
+.social-media-container {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.insta-picture {
+    display: flex; 
+    margin: 50px 240px;
+    gap: 24px;
 }
