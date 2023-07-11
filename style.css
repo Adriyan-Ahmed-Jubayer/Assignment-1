@@ -33,6 +33,7 @@ body {
     align-items: center;
     justify-content: space-around;
 }
+
 .banner-title {
     font-size: 80px;
     color: rgb(39, 39, 39);
@@ -48,6 +49,7 @@ body {
     border: none;
     border-radius: 8px;
 }
+
 .banner-image-container {
     margin-top: 50px;
     margin-bottom: -3px;
@@ -92,7 +94,6 @@ body {
     margin-top: 32px;
     text-decoration: underline;
 }
-
 
 /* Offer Section Styls Starts from Here */
 
@@ -143,6 +144,16 @@ body {
     border: none;
     border-radius: 8px;
     margin-right: 16px;
+}
+
+/* About Section Styles Start from Here */
+
+.about-us-container {
+    text-align: center;
+    padding: 130px;
+    background-color: rgba(5, 151, 160, 0.15);
+    margin: 140px 240px;
+    border-radius: 8px;
 }
 
 /* Footer Section Styles */
