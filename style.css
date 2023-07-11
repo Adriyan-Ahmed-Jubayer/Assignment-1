@@ -25,6 +25,8 @@ body {
 
 /* Header Section Styles */
 
+/* Banner Section Styles */
+
 .banner-container {
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
@@ -52,6 +54,45 @@ body {
 }
 
 /* Main Section Styles */
+
+/* Feature Section Styles Start from Here */
+
+.featured-section-container {
+    margin-top: 180px;
+    text-align: center;
+}
+
+.pink-flower-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.tulip-flower-1 {
+    background-color: rgba(167, 33, 98, 0.15);
+    padding: 110px 78px 0px 77px;
+    border-radius: 300px 300px 0px 0px;
+    margin-bottom: ;
+}
+
+.bouquet-flower-2 {
+    background-color: rgba(5, 151, 160, 0.15);
+    padding: 117px 47px 51px 47px;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.tulip-flower-3 {
+    background-color: rgba(71, 125, 17, 0.15);
+    padding: 70px 75px 0px 75px;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.flower-name {
+    margin-top: 32px;
+    text-decoration: underline;
+}
+
 
 /* Offer Section Styls Starts from Here */
 
@@ -81,7 +122,7 @@ body {
 
 .insta-picture {
     display: flex; 
-    margin: 50px 240px;
+    justify-content: center;
     gap: 24px;
 }
 
